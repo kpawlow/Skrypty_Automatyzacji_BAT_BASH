@@ -10,3 +10,4 @@ echo Podane imie i nazwisko to %imie% %nazwisko% > %imie%_%nazwisko%.txt
 echo Podany adres to %ulica% %nr_domu% >> %imie%_%nazwisko%.txt
 echo Dane zostaly zapisane do pliku %imie%_%nazwisko%.txt
 pause
+exit

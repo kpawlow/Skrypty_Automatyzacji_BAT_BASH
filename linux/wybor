@@ -1,0 +1,16 @@
+#!/bin/bash
+echo "Wybierz litere odpowiadajaca miastu  
+z jakiego pochodzisz"
+echo "1) Kielce"
+echo "2) Warszawa"
+echo "3) Poznań"
+echo "4) Krakow"
+echo "5) Nie wiem gdzie mieszkam !"
+read case;
+case $case in
+    1) echo "Jesteś z Kielc";;
+    2) echo "Mieszkasz w Warszawie";;
+    3) echo "Jesteś z Poznania";;
+    4) echo "Jesteś z Krakowa";;
+    5) exit
+esac 

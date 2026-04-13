@@ -33,19 +33,19 @@ echo "Wynik dzielenia calkowitego: $dzielenie_calkowite"
 ----------------
 
 #!/bin/bash
-echo -n "Podaj imiÍ: "
+echo -n "Podaj imię: "
 read imie
 echo -n "Wiek: "
 read wiek
-echo "Twoje imiÍ $imie i masz $wiek lat"
-echo "Za 5 lat bÍdziesz mieś $[ wiek+5 ] lat" 
+echo "Twoje imię $imie i masz $wiek lat"
+echo "Za 5 lat będziesz mieć $[ wiek+5 ] lat" 
 
 
 
 #!/bin/bash
 clear
 
-echo -n "Podaj imiÍ: "
+echo -n "Podaj imię: "
 read imie
 echo -n "Podaj nazwisko: "
 read nazwisko

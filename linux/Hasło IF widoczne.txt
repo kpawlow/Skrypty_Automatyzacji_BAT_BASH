@@ -1,0 +1,13 @@
+
+#!/bin/bash
+
+echo "Podaj haslo"
+
+read haslo
+
+if [ "$haslo" = "tajne" ]
+then
+echo "Prawidlowe haslo"
+else
+echo "Dostep zabroniony"
+fi 

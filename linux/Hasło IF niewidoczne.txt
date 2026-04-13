@@ -1,0 +1,12 @@
+#!/bin/bash
+printf "Podaj haslo: "
+stty -echo
+read haslo
+stty echo
+
+if [ "$haslo" = "tajne" ]
+then
+echo "Prawidlowe haslo"
+else
+echo "Dostep zabroniony"
+fi 

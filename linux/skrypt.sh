@@ -16,7 +16,7 @@ echo "Witaj $imie"
 
 #!/bin/bash
 echo
-echo -n "Podaj dwie liczby oddzielone spacjĻ: "
+echo -n "Podaj dwie liczby oddzielone spacją: "
 read a b
 
 dodawanie=$[ a+b ]
